@@ -4,7 +4,6 @@ As of the current times, the world should have access to all of the information 
 Spread awareness and also the means of protection against the current threat.
 ### Stay Home, Stay Safe!
 
-![GitHub contributors](https://img.shields.io/github/contributors/VladRoscaDev/CovidInfo?color=success&style=flat-square)
 ![Github Contributors](https://img.shields.io/github/contributors/VladRoscaDev/CovidInfo?color=success&style=flat-square)
 ![Github Last Commit](https://img.shields.io/github/last-commit/VladRoscaDev/CovidInfo?color=success&style=flat-square)
 ![License](https://img.shields.io/badge/license-MIT-success.svg?style=flat-square?color=success&style=flat-square)
