@@ -4,6 +4,11 @@ As of the current times, the world should have access to all of the information 
 Spread awareness and also the means of protection against the current threat.
 ### Stay Home, Stay Safe!
 
+![Github Isseus] (https://img.shields.io/github/issues/VladRoscaDev/CovidInfo)
+![Github Contributors] (https://img.shields.io/github/contributors/VladRoscaDev/CovidInfo)
+![Github Last Commit] (https://img.shields.io/github/last-commit/VladRoscaDev/CovidInfo)
+![License] (https://img.shields.io/badge/license-MIT-success.svg?style=flat-square)
+
 ## Download the app :calling:
 Download the `covidInfo.apk` to try it out
 <br>
