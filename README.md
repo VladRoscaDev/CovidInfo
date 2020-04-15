@@ -22,7 +22,8 @@ Download the `covidInfo.apk` to try it out
 
 
 # Compatibility :iphone:
-Since the app was designed using Flutter SDK it is compatible with both Android and IOs devices.
+Since the app was designed using Flutter SDK it is compatible with both Android and IOs devices. All it needs is to be built for IOs in orther to use it on an Iphone.
+At the moment I can only provide the apk for Android. 
  
  
 # WARNING :warning: 
