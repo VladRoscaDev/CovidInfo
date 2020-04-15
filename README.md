@@ -4,6 +4,12 @@ As of the current times, the world should have access to all of the information 
 Spread awareness and also the means of protection against the current threat.
 ### Stay Home, Stay Safe!
 
+## Download the app :calling:
+Download the `covidInfo.apk` to try it out
+<br>
+<a href="https://bit.ly/betatojuwa"><img src="https://playerzon.com/asset/download.png" width="200"></img></a>
+<br>
+
 
 # Features
 - :heavy_check_mark: The app supports dark theme;
