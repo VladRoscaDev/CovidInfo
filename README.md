@@ -1,4 +1,4 @@
-# CovidInfo
+# CovidInfo :biohazard:
 This app was create in order to provide statistics for the COVID-19 pandemic.
 
 
@@ -11,15 +11,20 @@ This app was create in order to provide statistics for the COVID-19 pandemic.
 - :heavy_check_mark: Region statistics
 - :heavy_check_mark: Country statistics
 
+
 # Compatibility :iphone:
 Since the app was designed using Flutter SDK it is compatible with both Android and IOs devices.
-
+ 
+ 
 # WARNING :warning: 
 The data provided are indicative and should not be used for medical purposes
 
 
-
-# THANKS TO :+1:
+# THANKS TO :+1: :hugs:
 A big thanks to this api that suplies all the data for the app.
 
 https://github.com/javieraviles/covidAPI
+
+
+# Helping :nerd_face:
+If you consider this app usefull, or if it lacks anything consider creating an Issue, and I will try to fix it. 
