@@ -11,7 +11,7 @@ Spread awareness and also the means of protection against the current threat.
 ## Download the app :calling:
 Download the `covidInfo.apk` to try it out
 <br>
-<a href="https://github.com/VladRoscaDev/CovidInfo/blob/master/covidInfo.apk"><img src="https://playerzon.com/asset/download.png" width="200"></img></a>
+<a href="https://raw.githubusercontent.com/VladRoscaDev/CovidInfo/master/covidInfo.apk"><img src="https://playerzon.com/asset/download.png" width="200"></img></a>
 <br>
 
 
