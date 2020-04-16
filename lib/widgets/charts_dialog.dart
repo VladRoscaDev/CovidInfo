@@ -1,4 +1,3 @@
-import 'package:covid_info/data/country_timeline_model.dart';
 import 'package:covid_info/providers/country_timeline_provider.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
@@ -52,10 +51,16 @@ class _ChartDialogState extends State<ChartDialog> {
 
   @override
   Widget build(BuildContext context) {
-    var countryTimeline =
-        Provider.of<CountryTimelineProvider>(context, listen: false);
-    print(
-        'country timeline:${countryTimeline.countryTimelineModel.timeline.toString()}');
+    List<Color> colorList = [
+      Colors.red,
+      Colors.green,
+      Colors.blue,
+      Colors.yellow,
+      Colors.purple,
+      Colors.brown,
+      Colors.tealAccent
+    ];
+   
     var country = widget.country;
     _initDataMap();
     return AlertDialog(
@@ -74,13 +79,14 @@ class _ChartDialogState extends State<ChartDialog> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             PieChart(
+              colorList: colorList,
               dataMap: dataMap,
-              showChartValueLabel: false,
-              showChartValues: false,
+              showChartValueLabel: true,
+              showChartValues: true,
               showChartValuesInPercentage: true,
               showChartValuesOutside: false,
               chartLegendSpacing: 15,
-              chartRadius: MediaQuery.of(context).size.width - 120,
+              chartRadius: MediaQuery.of(context).size.width ,
               chartType: ChartType.disc,
               legendPosition: LegendPosition.bottom,
             ),
