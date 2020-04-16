@@ -24,6 +24,18 @@ Download the `covidInfo.apk` to try it out
 - :heavy_check_mark: Region statistics
 - :heavy_check_mark: Country statistics
 
+# Interface
+<img src="https://raw.githubusercontent.com/VladRoscaDev/CovidInfo/master/images/1.jpg" width="250">
+<img src="https://raw.githubusercontent.com/VladRoscaDev/CovidInfo/master/images/2.jpg" width="250">
+<img src="https://raw.githubusercontent.com/VladRoscaDev/CovidInfo/master/images/3.jpg" width="250">
+<img src="https://raw.githubusercontent.com/VladRoscaDev/CovidInfo/master/images/4.jpg" width="250">
+<img src="https://raw.githubusercontent.com/VladRoscaDev/CovidInfo/master/images/5.jpg" width="250">
+<img src="https://raw.githubusercontent.com/VladRoscaDev/CovidInfo/master/images/6.jpg" width="250">
+<img src="https://raw.githubusercontent.com/VladRoscaDev/CovidInfo/master/images/7.jpg" width="250">
+<img src="https://raw.githubusercontent.com/VladRoscaDev/CovidInfo/master/images/8.jpg" width="250">
+<img src="https://raw.githubusercontent.com/VladRoscaDev/CovidInfo/master/images/9.jpg" width="250">
+
+
 
 # Compatibility :iphone:
 Since the app was designed using Flutter SDK it is compatible with both Android and IOs devices. All it needs is to be built for IOs in orther to use it on an Iphone.
