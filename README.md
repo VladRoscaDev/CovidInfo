@@ -11,7 +11,7 @@ Spread awareness and also the means of protection against the current threat.
 ## Download the app :calling:
 Download the `covidInfo.apk` to try it out
 <br>
-<a href="https://github.com/VladRoscaDev/CovidInfo/covidInfo.apk"><img src="https://playerzon.com/asset/download.png" width="200"></img></a>
+<a href="https://raw.githubusercontent.com/VladRoscaDev/CovidInfo/master/covidInfo.apk"><img src="https://playerzon.com/asset/download.png" width="200"></img></a>
 <br>
 
 
@@ -23,6 +23,18 @@ Download the `covidInfo.apk` to try it out
 - :heavy_check_mark: World statistics
 - :heavy_check_mark: Region statistics
 - :heavy_check_mark: Country statistics
+
+# Interface
+<img src="https://raw.githubusercontent.com/VladRoscaDev/CovidInfo/master/images/1.jpg" width="250">
+<img src="https://raw.githubusercontent.com/VladRoscaDev/CovidInfo/master/images/2.jpg" width="250">
+<img src="https://raw.githubusercontent.com/VladRoscaDev/CovidInfo/master/images/3.jpg" width="250">
+<img src="https://raw.githubusercontent.com/VladRoscaDev/CovidInfo/master/images/4.jpg" width="250">
+<img src="https://raw.githubusercontent.com/VladRoscaDev/CovidInfo/master/images/5.jpg" width="250">
+<img src="https://raw.githubusercontent.com/VladRoscaDev/CovidInfo/master/images/6.jpg" width="250">
+<img src="https://raw.githubusercontent.com/VladRoscaDev/CovidInfo/master/images/7.jpg" width="250">
+<img src="https://raw.githubusercontent.com/VladRoscaDev/CovidInfo/master/images/8.jpg" width="250">
+<img src="https://raw.githubusercontent.com/VladRoscaDev/CovidInfo/master/images/9.jpg" width="250">
+
 
 
 # Compatibility :iphone:
