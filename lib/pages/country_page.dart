@@ -59,7 +59,7 @@ class _CountryPageState extends State<CountryPage> {
   Widget _displayContentBasedOnNetwork(CountryProvider countryContainer) {
     checkConnection();
     if (isOnline) {
-      if(countryContainer.searchedCountries == null){
+      if (countryContainer.searchedCountries == null) {
         _handleRefresh(context);
       }
       return countryContainer.searchedCountries == null
@@ -101,7 +101,6 @@ class _CountryPageState extends State<CountryPage> {
                           itemBuilder: (BuildContext context, int index) {
                             return InkWell(
                               onTap: () {
-                                
                                 showDialog(
                                     context: context,
                                     builder: (BuildContext context) {
@@ -131,7 +130,7 @@ class _CountryPageState extends State<CountryPage> {
                                           Text(
                                             " - " +
                                                 tr('cases') +
-                                                ": ${countryContainer.searchedCountries[index].cases}",
+                                                ": ${NumberFormat.decimalPattern("en_US").format(countryContainer.searchedCountries[index].cases)}",
                                             style: TextStyle(
                                                 color: Theme.of(context)
                                                     .accentColor,
@@ -202,7 +201,7 @@ class _CountryPageState extends State<CountryPage> {
                   fontWeight: FontWeight.normal),
             ),
             Text(
-              country.recovered.toString(),
+              NumberFormat.decimalPattern("en_US").format(country.recovered),
               style: TextStyle(
                   fontSize: 16,
                   color: Theme.of(context).accentColor,
@@ -225,7 +224,7 @@ class _CountryPageState extends State<CountryPage> {
                   fontWeight: FontWeight.normal),
             ),
             Text(
-              country.critical.toString(),
+              NumberFormat.decimalPattern("en_US").format(country.critical),
               style: TextStyle(
                   fontSize: 16,
                   color: Theme.of(context).accentColor,
@@ -257,7 +256,7 @@ class _CountryPageState extends State<CountryPage> {
                   fontWeight: FontWeight.normal),
             ),
             Text(
-              country.deaths.toString(),
+              NumberFormat.decimalPattern("en_US").format(country.deaths),
               style: TextStyle(
                   fontSize: 16,
                   color: Theme.of(context).accentColor,
@@ -280,7 +279,7 @@ class _CountryPageState extends State<CountryPage> {
                   fontWeight: FontWeight.normal),
             ),
             Text(
-              country.todayDeaths.toString(),
+              NumberFormat.decimalPattern("en_US").format(country.todayDeaths),
               style: TextStyle(
                   fontSize: 16,
                   color: Theme.of(context).accentColor,
@@ -310,7 +309,7 @@ class _CountryPageState extends State<CountryPage> {
                   fontWeight: FontWeight.normal),
             ),
             Text(
-              country.todayCases.toString(),
+              NumberFormat.decimalPattern("en_US").format(country.todayCases),
               style: TextStyle(
                   fontSize: 16,
                   color: Theme.of(context).accentColor,
@@ -333,7 +332,7 @@ class _CountryPageState extends State<CountryPage> {
                   fontWeight: FontWeight.normal),
             ),
             Text(
-              country.active.toString(),
+              NumberFormat.decimalPattern("en_US").format(country.active),
               style: TextStyle(
                   fontSize: 16,
                   color: Theme.of(context).accentColor,

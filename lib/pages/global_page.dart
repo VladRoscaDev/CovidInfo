@@ -14,6 +14,7 @@ class GlobalPage extends StatefulWidget {
 
 class _GlobalPageState extends State<GlobalPage> {
   bool isOnline = false;
+  final numberFormatter = NumberFormat("#.##", "en_US");
 
   checkConnection() async {
     var connectivityResult = await (Connectivity().checkConnectivity());
@@ -31,8 +32,9 @@ class _GlobalPageState extends State<GlobalPage> {
 
   Widget _displayContentBasedOnNetwork(GlobalProvider globalContainer) {
     checkConnection();
+    final formatter = new NumberFormat("#.###");
     if (isOnline) {
-      if(globalContainer.globalData==null){
+      if (globalContainer.globalData == null) {
         _handleRefresh(context);
       }
       return globalContainer.globalData == null
@@ -136,7 +138,8 @@ Padding _buildGlobalRecoveredWidget(
                 children: <Widget>[
                   Text(
                     globalProvider.globalData != null
-                        ? globalProvider.globalData.recovered.toString()
+                        ? NumberFormat.decimalPattern("en_US")
+                            .format(globalProvider.globalData.recovered)
                         : '-',
                     style: TextStyle(
                         color: Theme.of(context).accentColor,
@@ -189,7 +192,8 @@ Padding _buildGlobalDeathsWidget(
                 children: <Widget>[
                   Text(
                     globalProvider.globalData != null
-                        ? globalProvider.globalData.deaths.toString()
+                        ? NumberFormat.decimalPattern("en_US")
+                            .format(globalProvider.globalData.deaths)
                         : '-',
                     style: TextStyle(
                         color: Theme.of(context).accentColor,
@@ -242,7 +246,8 @@ Padding _buildGlobalInfectedWidget(
                 children: <Widget>[
                   Text(
                     globalProvider.globalData != null
-                        ? globalProvider.globalData.cases.toString()
+                        ? NumberFormat.decimalPattern("en_US")
+                            .format(globalProvider.globalData.cases)
                         : '-',
                     style: TextStyle(
                         color: Theme.of(context).accentColor,

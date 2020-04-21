@@ -26,7 +26,7 @@ class _ChartDialogState extends State<ChartDialog> {
   }
 
   void _initDataMap() {
-    dataMap.putIfAbsent(tr('cases'), () => widget.country.cases.toDouble());
+    // dataMap.putIfAbsent(tr('cases'), () => widget.country.cases.toDouble());
     dataMap.putIfAbsent(tr('deaths'), () => widget.country.deaths.toDouble());
     if (Localizations.localeOf(context) == Locale('en', 'US')) {
       dataMap.putIfAbsent(tr('today') + ' ' + tr('deaths'),
@@ -53,7 +53,6 @@ class _ChartDialogState extends State<ChartDialog> {
   Widget build(BuildContext context) {
     List<Color> colorList = [
       Colors.red,
-      Colors.green,
       Colors.blue,
       Colors.yellow,
       Colors.purple,
