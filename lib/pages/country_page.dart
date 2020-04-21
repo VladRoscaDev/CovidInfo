@@ -201,7 +201,8 @@ class _CountryPageState extends State<CountryPage> {
                   fontWeight: FontWeight.normal),
             ),
             Text(
-              NumberFormat.decimalPattern("en_US").format(country.recovered),
+              NumberFormat.decimalPattern("en_US")
+                  .format(country.recovered != null ? country.recovered : 0),
               style: TextStyle(
                   fontSize: 16,
                   color: Theme.of(context).accentColor,
@@ -224,7 +225,8 @@ class _CountryPageState extends State<CountryPage> {
                   fontWeight: FontWeight.normal),
             ),
             Text(
-              NumberFormat.decimalPattern("en_US").format(country.critical),
+              NumberFormat.decimalPattern("en_US")
+                  .format(country.critical != null ? country.critical : 0),
               style: TextStyle(
                   fontSize: 16,
                   color: Theme.of(context).accentColor,
@@ -256,7 +258,8 @@ class _CountryPageState extends State<CountryPage> {
                   fontWeight: FontWeight.normal),
             ),
             Text(
-              NumberFormat.decimalPattern("en_US").format(country.deaths),
+              NumberFormat.decimalPattern("en_US")
+                  .format(country.deaths != null ? country.deaths : 0),
               style: TextStyle(
                   fontSize: 16,
                   color: Theme.of(context).accentColor,
@@ -279,7 +282,8 @@ class _CountryPageState extends State<CountryPage> {
                   fontWeight: FontWeight.normal),
             ),
             Text(
-              NumberFormat.decimalPattern("en_US").format(country.todayDeaths),
+              NumberFormat.decimalPattern("en_US").format(
+                  country.todayDeaths != null ? country.todayDeaths : 0),
               style: TextStyle(
                   fontSize: 16,
                   color: Theme.of(context).accentColor,
@@ -309,7 +313,8 @@ class _CountryPageState extends State<CountryPage> {
                   fontWeight: FontWeight.normal),
             ),
             Text(
-              NumberFormat.decimalPattern("en_US").format(country.todayCases),
+              NumberFormat.decimalPattern("en_US")
+                  .format(country.todayCases != null ? country.todayCases : 0),
               style: TextStyle(
                   fontSize: 16,
                   color: Theme.of(context).accentColor,
@@ -332,7 +337,8 @@ class _CountryPageState extends State<CountryPage> {
                   fontWeight: FontWeight.normal),
             ),
             Text(
-              NumberFormat.decimalPattern("en_US").format(country.active),
+              NumberFormat.decimalPattern("en_US")
+                  .format(country.active != null ? country.active : 0),
               style: TextStyle(
                   fontSize: 16,
                   color: Theme.of(context).accentColor,

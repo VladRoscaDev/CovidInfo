@@ -138,8 +138,10 @@ Padding _buildGlobalRecoveredWidget(
                 children: <Widget>[
                   Text(
                     globalProvider.globalData != null
-                        ? NumberFormat.decimalPattern("en_US")
-                            .format(globalProvider.globalData.recovered)
+                        ? NumberFormat.decimalPattern("en_US").format(
+                            globalProvider.globalData.recovered != null
+                                ? globalProvider.globalData.recovered
+                                : 0)
                         : '-',
                     style: TextStyle(
                         color: Theme.of(context).accentColor,
@@ -192,8 +194,10 @@ Padding _buildGlobalDeathsWidget(
                 children: <Widget>[
                   Text(
                     globalProvider.globalData != null
-                        ? NumberFormat.decimalPattern("en_US")
-                            .format(globalProvider.globalData.deaths)
+                        ? NumberFormat.decimalPattern("en_US").format(
+                            globalProvider.globalData.deaths != null
+                                ? globalProvider.globalData.deaths
+                                : 0)
                         : '-',
                     style: TextStyle(
                         color: Theme.of(context).accentColor,
@@ -246,8 +250,10 @@ Padding _buildGlobalInfectedWidget(
                 children: <Widget>[
                   Text(
                     globalProvider.globalData != null
-                        ? NumberFormat.decimalPattern("en_US")
-                            .format(globalProvider.globalData.cases)
+                        ? NumberFormat.decimalPattern("en_US").format(
+                            globalProvider.globalData.cases != null
+                                ? globalProvider.globalData.cases
+                                : 0)
                         : '-',
                     style: TextStyle(
                         color: Theme.of(context).accentColor,
