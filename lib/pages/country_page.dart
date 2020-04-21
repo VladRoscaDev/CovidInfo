@@ -1,3 +1,4 @@
+import 'package:auto_size_text/auto_size_text.dart';
 import 'package:connectivity/connectivity.dart';
 import 'package:covid_info/data/country_model.dart';
 import 'package:covid_info/providers/country_provider.dart';
@@ -127,14 +128,17 @@ class _CountryPageState extends State<CountryPage> {
                                                 fontSize: 25,
                                                 fontWeight: FontWeight.bold),
                                           ),
-                                          Text(
-                                            " - " +
-                                                tr('cases') +
-                                                ": ${NumberFormat.decimalPattern("en_US").format(countryContainer.searchedCountries[index].cases)}",
-                                            style: TextStyle(
-                                                color: Theme.of(context)
-                                                    .accentColor,
-                                                fontSize: 25),
+                                          Expanded(
+                                            child: AutoSizeText(
+                                              " - " +
+                                                  tr('cases') +
+                                                  ": ${NumberFormat.decimalPattern("en_US").format(countryContainer.searchedCountries[index].cases)}",
+                                              maxLines: 1,
+                                              style: TextStyle(
+                                                  color: Theme.of(context)
+                                                      .accentColor,
+                                                  fontSize: 25),
+                                            ),
                                           )
                                         ],
                                       ),
