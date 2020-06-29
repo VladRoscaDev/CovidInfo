@@ -1,5 +1,5 @@
 # CovidInfo :biohazard:
-This app was create in order to provide statistics for the COVID-19 pandemic.
+This app was created in order to provide statistics for the COVID-19 pandemic.
 As of the current times, the world should have access to all of the information fast at any time.
 Spread awareness and also the means of protection against the current threat.
 ### Stay Home, Stay Safe!
